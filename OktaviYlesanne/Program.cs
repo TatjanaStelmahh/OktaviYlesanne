@@ -44,7 +44,8 @@ namespace OktaviYlesanne
                 { 'G', 659},
                 { 'A', 739},
                 { 'H', 830},
-                { 'P', 37 }
+                { 'B', 830},
+                { 'P', 037}
             };
 
 
@@ -59,7 +60,7 @@ namespace OktaviYlesanne
                 //    Console.Beep(j, 300);
                 //}
                 //                else 
-                Console.Beep(sagedused[x], 200);
+                Console.Beep(sagedused[x], 400);
             }
         }
 
@@ -75,8 +76,9 @@ namespace OktaviYlesanne
             string rongisoit = "CDEFGGGPCDEFGGGPFFFFEEEPDDDDCCCPFFFPEEEPDDDDCCCP";
             string sepapoisid = "CDECCDECEFGPPEFGPPP" +
                                 "GAGFEPCPGAGFEPCPCPDECPPPCPDECPPP";
+            string christmas = "DGGAGFEEPPEAABAGFDPPDBBCBAGEDDEAFGPPDGGGFFGFEDPABAGDDEEEAFG";
 
-            Laula(sepapoisid);
+            Laula(christmas);
 
             for (int i = 1000; i < 25; i++)
             {
