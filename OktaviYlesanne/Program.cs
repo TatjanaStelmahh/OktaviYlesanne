@@ -48,6 +48,62 @@ namespace OktaviYlesanne
                 { 'P', 037}
             };
 
+            Dictionary<char, int> sagedused2 =
+           new Dictionary<char, int>
+           {
+                { 'C', 261},
+                { 'D', 293},
+                { 'E', 330},
+                { 'F', 349},
+                { 'G', 391},
+                { 'A', 440},
+                { 'H', 494},
+                { 'B', 494},
+                { 'P', 037}
+           };
+
+
+            Dictionary<char, int> sagedusedUP =
+            new Dictionary<char, int>
+            {
+                { 'C', 1046},
+                { 'D', 1175},
+                { 'E', 1318},
+                { 'F', 1397},
+                { 'G', 1568},
+                { 'A', 1760},
+                { 'H', 1960},
+                { 'B', 830},
+                { 'P', 037}
+            };
+
+            Dictionary<char, int> sagedusedDOWN =
+           new Dictionary<char, int>
+           {
+                { 'C', 65},
+                { 'D', 73},
+                { 'E', 82},
+                { 'F', 87},
+                { 'G', 97},
+                { 'A', 110},
+                { 'H', 123},
+                { 'B', 123},
+                { 'P', 037}
+           };
+
+            Dictionary<char, int> sagedusedMID =
+           new Dictionary<char, int>
+           {
+                { 'C', 131},
+                { 'D', 147},
+                { 'E', 165},
+                { 'F', 175},
+                { 'G', 196},
+                { 'A', 220},
+                { 'H', 246},
+                { 'B', 246},
+                { 'P', 037}
+           };
 
             foreach (var x in s)
             {
@@ -60,7 +116,7 @@ namespace OktaviYlesanne
                 //    Console.Beep(j, 300);
                 //}
                 //                else 
-                Console.Beep(sagedused[x],300);
+                Console.Beep(sagedusedDOWN[x],400);
             }
         }
 
@@ -84,7 +140,7 @@ namespace OktaviYlesanne
             string starwars = "CPGPGGGCFEDGCFED" + 
                               "GFEFDCGGGGFEDCGFCEDGFEFDFGGAAEDCCDEDABFEGGAADCGDDGFEDCGAACDEDGGABCAGGFDDCGDDCGGGGFED";
 
-            string imperial = "AAAFCAFCAPEEEFCAFCAFCA";
+            string imperial = "AAAFCAFCAPPEEEFCAFCAFC";
 
             Laula(imperial);
 
