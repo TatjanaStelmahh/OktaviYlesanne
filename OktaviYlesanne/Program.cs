@@ -60,7 +60,7 @@ namespace OktaviYlesanne
                 //    Console.Beep(j, 300);
                 //}
                 //                else 
-                Console.Beep(sagedused[x], 400);
+                Console.Beep(sagedused[x],300);
             }
         }
 
@@ -76,9 +76,17 @@ namespace OktaviYlesanne
             string rongisoit = "CDEFGGGPCDEFGGGPFFFFEEEPDDDDCCCPFFFPEEEPDDDDCCCP";
             string sepapoisid = "CDECCDECEFGPPEFGPPP" +
                                 "GAGFEPCPGAGFEPCPCPDECPPPCPDECPPP";
-            string christmas = "DGGAGFEEPPEAABAGFDPPDBBCBAGEDDEAFGPPDGGGFFGFEDPABAGDDEEEAFG";
+           
+            string christmas = "CFFGFEDDPDGGAGFECPCAABAGFDPCCDGEFPP" +
+                                "CFFFEPEFEDCPGAGFCCPCCDGEFPP" +
+                                "CFFGFEDDPDGGAGFECPCAABAGFDPCCDGEFPP" +
+                                "CFFGFEDDPDGGAGFECPCAABAGFDPCCDGEFPP";
+            string starwars = "CPGPGGGCFEDGCFED" + 
+                              "GFEFDCGGGGFEDCGFCEDGFEFDFGGAAEDCCDEDABFEGGAADCGDDGFEDCGAACDEDGGABCAGGFDDCGDDCGGGGFED";
 
-            Laula(christmas);
+            string imperial = "AAAFCAFCAPEEEFCAFCAFCA";
+
+            Laula(imperial);
 
             for (int i = 1000; i < 25; i++)
             {
